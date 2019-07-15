@@ -14,7 +14,7 @@ typedef BOOL(WINAPI* _EnumDisplaySettingsW)(
 	IN DWORD iModeNum,
 	OUT LPDEVMODEW lpDevMode);
 
-typedef BOOL(WINAPI* _GetDeviceCaps)(			//error
+typedef BOOL(WINAPI* _GetDeviceCaps)(
 	IN HDC hdc,
 	IN int index);
 
