@@ -1,2 +1,3 @@
 #user32hook
-x86 DLL to hook various winapi functions.
+
+DLL (x86) to hook various winapi functions.
